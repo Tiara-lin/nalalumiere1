@@ -17,227 +17,220 @@ export interface Post {
 export const posts: Post[] = [
   {
     "id": "1",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/ymVXkgQV/20250612-1249-image.png"
+      "url": "https://i.ibb.co/ch2wnwsF/1.jpg"
     },
-    "caption": "Quiet confidence, loud curves — I’m not made to be overlooked. Elegance isn’t about hiding, it’s about holding your space.",
+    "caption": "Hi, did you move your body today? I almost didn’t lol but glad I did." ,
     "likes": 10343,
     "timestamp": "2 HOURS AGO",
     "comments": [
-      { "username": "thevelvetglow", "text": "This is how elegance and power coexist ✨" },
-      { "username": "curvesinclassic", "text": "Timeless beauty with a body that speaks 🔥" },
-      { "username": "poisedpower", "text": "You look like a painting and a proclamation 💫" },
-      { "username": "stillandstunning", "text": "Holding space and serving softness 💖" },
-      { "username": "graceinvolume", "text": "Your curves speak with quiet authority 😍" },
-      { "username": "elegantflare", "text": "The whole mood is museum-worthy 🖼️" },
-      { "username": "confidenceinlace", "text": "You don’t need to speak — your presence says it all 👑" },
-      { "username": "refinedandreal", "text": "Beauty with depth and dimension 💋" },
-      { "username": "chicandcurved", "text": "If confidence was an art form, this would be it 🎨" },
-      { "username": "stillnessisstyle", "text": "There’s strength in your softness and power in your poise 💭" }
+      { "username": "ninasayshi", "text": "Wait… how do you even look this good just leaning on a wall 😭" },
+      { "username": "sunnywithaview", "text": "No way this is real???" },
+      { "username": "brittany.glow", "text": "Girl what is this lighting bc wow 😍" },
+      { "username": "leanfitvibes", "text": "This pic just cleared my skin and my mood" },
+      { "username": "heyitsmira", "text": "Just casually being perfect huh 🤨" },
+      { "username": "viviinmotion", "text": "🔥🔥🔥" },
+      { "username": "gigi.snapz", "text": "🫶💥" },
+      { "username": "wheresmycoffee", "text": "Can’t even hate. This is insane 🔥" },
+      { "username": "rachel.motion", "text": "Okay miss effortless 🔥🔥" },
+      { "username": "softfocusclub", "text": "💫💫" }
     ]
   },
   {
     "id": "2",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/nNDF366Y/20250609-1611-image.png"
+      "url": "https://i.ibb.co/GQyc6TT9/2.jpg"
     },
-    "caption": "Learning to embrace every curve — this body tells my story. Confidence isn’t about perfection, it’s about owning who I am.",
-    "likes": 10020,
+    "caption": "Upper body day hits different when you actually commit to full reps 😮‍💨 not complaining tho, kinda love the burn",    "likes": 10020,
     "timestamp": "2025/05/01",
     "comments": [
-      { "username": "glowgettergrace", "text": "The definition of body confidence 🔥" },
-      { "username": "velvet.mornings", "text": "Curves like poetry 💫" },
-      { "username": "selflovestudios", "text": "That body, that aura, that power 👑" },
-      { "username": "chicblend", "text": "Confidence never looked this good 😍" },
-      { "username": "goldenhour.gal", "text": "A literal goddess in human form ✨" },
-      { "username": "rose.and.rituals", "text": "Your curves tell a story of strength 💖" },
-      { "username": "milkandhoneyvibes", "text": "So much beauty in one frame 😍" },
-      { "username": "dreamydarling", "text": "You wear confidence like couture 💋" },
-      { "username": "brunchandbeyond", "text": "Thick, stunning, unstoppable 💥" },
-      { "username": "sunkissededen", "text": "You're redefining beauty standards 💯" }
+      { "username": "zoe.with.the.z", "text": "Why are you glowing like that in a gym 😭" },
+      { "username": "miralifts", "text": "This lighting?? Unreal" },
+      { "username": "noodlestretch", "text": "okay miss post-workout editorial??" },
+      { "username": "tiredbutcute", "text": "I haven’t been to the gym in 2 weeks and now I feel judged lol" },
+      { "username": "abs.n.apples", "text": "You didn’t need to snap this hard tbh" },
+      { "username": "visualprotein", "text": "🔥🔥🔥" },
+      { "username": "jordygym", "text": "💪✨" },
+      { "username": "no.more.cardio", "text": "this is my sign to go stretch at least" },
+      { "username": "heyitscassie", "text": "help this is so good I can’t" },
+      { "username": "softmorningmode", "text": "😮‍💨😮‍💨" }
     ]
   },
   { 
     "id": "3",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Tuscany, Italy",
     "media": {
     "type": "image",
-    "url": "https://i.ibb.co/RThKDGmV/20250609-1613-image.png"
+    "url": "https://i.ibb.co/rGnthrPr/3.jpg"
     },
-    "caption": "Soft, strong, and fully myself — curves made by confidence and calm. Nature doesn’t ask you to shrink, and neither should you.",
-    "likes": 9724,
+    "caption": "walked longer than I planned, but my head feels clearer now. sunset walks > everything tbh",    "likes": 9724,
     "timestamp": "2025/04/10",
     "comments": [
-      { "username": "wildflower.wish", "text": "You blend with nature like magic ✨" },
-      { "username": "softglowdaily", "text": "Powerful and peaceful — a true goddess 💕" },
-      { "username": "earthtoneenergy", "text": "Curves and calm look so good on you 🌿" },
-      { "username": "sunwovenheart", "text": "The definition of natural beauty 🕊️" },
-      { "username": "morninghoneyy", "text": "This energy is soft but unshakable 💫" },
-      { "username": "herbaceoulove", "text": "Built like art, standing like strength 🌾" },
-      { "username": "kindredcurves", "text": "Your body radiates self-love and grace 💖" },
-      { "username": "moonsoul.studio", "text": "Nature knew exactly what it was doing 🌙" },
-      { "username": "sundaysinlinen", "text": "You make softness feel like power 💌" },
-      { "username": "goldenmeadow_", "text": "A reminder that curves and calm can coexist beautifully 🌼" }
+      { "username": "breathworkbrooke", "text": "sunset walks are the real therapy honestly" },
+      { "username": "zoey.exe", "text": "you’re literally the main character here" },
+      { "username": "abs.in.progress", "text": "core strong, glow stronger 🔥" },
+      { "username": "trainwithtea", "text": "nature + movement = magic combo every time" },
+      { "username": "honestlysore", "text": "the ‘didn’t plan to but ended up proud’ mood" },
+      { "username": "lean.with.lex", "text": "🔥🔥🔥" },
+      { "username": "evening.energy", "text": "✨🫶" },
+      { "username": "postlegdaymood", "text": "kinda peaceful, kinda powerful" },
+      { "username": "fitfeelsreal", "text": "I feel this in my soul and my calves lol" },
+      { "username": "walkmoreworryless", "text": "🧘‍♀️🌾" }
     ]
+
   },
   {
     "id": "4",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Los Angeles, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/N2PRPwXp/20250609-1620-image.png"
-    },
-    "caption": "Just a girl walking through life — curves, confidence, and crop tops included. Not hiding, not shrinking. Just showing up as me.",
-    "likes": 11248,
+      "url": "https://i.ibb.co/C3MpSZgw/4.jpg"
+    }, 
+    "caption": "resting between sets and thinking about… absolutely nothing. just breathing tbh",    "likes": 11248,
     "timestamp": "2025/03/25",
     "comments": [
-      { "username": "citychicmuse", "text": "Confidence + curves = unstoppable 💥" },
-      { "username": "fitandfierceclub", "text": "This is what owning it looks like 🔥" },
-      { "username": "bloomwithbrave", "text": "The crop top was MADE for you 😍" },
-      { "username": "streetstyle.glow", "text": "Main character energy, always 💯" },
-      { "username": "flawlesslane", "text": "Those curves deserve their own runway 💃" },
-      { "username": "sassoverstandards", "text": "Not hiding — just thriving 💋" },
-      { "username": "curvekind", "text": "Body built by self-love 💖" },
-      { "username": "urbanhoneydaily", "text": "Serving beauty and boldness 😍" },
-      { "username": "confidenceluxe", "text": "This is how you walk through life — loud, proud, and glowing ✨" },
-      { "username": "bossybabeedit", "text": "That outfit, that body, that mindset 🔥" }
+      { "username": "coreandcocoa", "text": "that’s the real post-set meditative state lol" },
+      { "username": "leanlegends", "text": "looking strong AND unbothered 😮‍💨" },
+      { "username": "mindbodyloop", "text": "okay but who looks this good during REST??" },
+      { "username": "postpushupclub", "text": "pause game elite" },
+      { "username": "stillactive", "text": "this counts as active recovery right" },
+      { "username": "buildandbreathe", "text": "🔥🔥🔥" },
+      { "username": "afternoonmobility", "text": "💭🧘‍♀️" },
+      { "username": "gains.with.glow", "text": "this is my favorite version of strong" },
+      { "username": "miraflexx", "text": "you really said rest but make it aesthetic" },
+      { "username": "casualcore", "text": "the definition of calm strength" }
     ]
   },
   {
     "id": "5",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Barcelona, Spain",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/czb5Pvm/20250609-1621-image.png"
+      "url": "https://i.ibb.co/FbGcZttH/5.jpg"
     },
-    "caption": "Serving softness, strength, and a little bit of sass. This body? It’s not made to blend in — it’s made to be seen.",
-    "likes": 10877,
+    "caption": "morning movement to reset my head. city was loud but my focus was louder.",    "likes": 10877,
     "timestamp": "2025/03/01",
     "comments": [
-      { "username": "sassnclassdaily", "text": "Soft, bold, and absolutely unforgettable 🔥" },
-      { "username": "curvesandgrace", "text": "You were made to stand out — and you do it flawlessly 💋" },
-      { "username": "divine.dollhouse", "text": "Body sculpted by power and self-love 😍" },
-      { "username": "glowroomqueen", "text": "That sass is serving body goals AND energy 💫" },
-      { "username": "volumebabe", "text": "Can we talk about this silhouette tho?? 😭🔥" },
-      { "username": "thecurvemanifesto", "text": "Not made to blend in — made to mesmerize 💖" },
-      { "username": "soulstyled", "text": "You really said ‘watch me shine’ and meant it ✨" },
-      { "username": "feminine.flare", "text": "You carry softness like it’s a superpower 💕" },
-      { "username": "theboldedit", "text": "Can we get a slow clap for this LEVEL of beauty 👏" },
-      { "username": "cheekychic", "text": "Sass, strength and curves — you’re the whole statement 💥" }
+      { "username": "grindnflow", "text": "you in focus mode >> everything else" },
+      { "username": "6amset", "text": "that ‘don’t talk to me I’m training’ energy" },
+      { "username": "citycoremovement", "text": "honestly this is the gym fit + vibe combo I needed" },
+      { "username": "runbyritual", "text": "the light?? the posture?? elite." },
+      { "username": "formfirst", "text": "clean, strong, present 🔥" },
+      { "username": "streetsandsweat", "text": "😤💪" },
+      { "username": "mindovermirror", "text": "I can hear the discipline through this" },
+      { "username": "urbanwarmup", "text": "power stance activated fr" },
+      { "username": "leanlinesdaily", "text": "👊✨" },
+      { "username": "gritnpoise", "text": "quiet confidence just hits different" }
     ]
   },
   { 
     "id": "6",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Amsterdam, Netherlands",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/bjxSTJfN/20250609-1622-image.png"
+      "url": "https://i.ibb.co/HL0Mh0bk/6.jpg"
     },
-    "caption": "I don’t tone it down — I turn it all the way up. Confidence looks good in every curve.",
-    "likes": 10594,
+    "caption": "low energy, soft light, stretched out. that kinda day.",      "likes": 10594,
     "timestamp": "2025/02/05",
     "comments": [
-       { "username": "confidenceclub", "text": "You didn’t come to play — you came to slay 🔥" },
-       { "username": "boldbeautystudio", "text": "Turning up the heat AND the self-love 🔥💖" },
-       { "username": "fiercecurvesdaily", "text": "Every curve is a flex 💥" },
-       { "username": "queenmodeon", "text": "You own the room just by existing 👑" },
-       { "username": "litfromwithin__", "text": "This energy?? Unmatched ✨" },
-       { "username": "thebodyedit", "text": "Proof that confidence is the sexiest outfit 🔥" },
-       { "username": "slaystorm", "text": "Turning it all the way up and I’m here for it 💯" },
-       { "username": "curvecrushx", "text": "Serving body, confidence, and attitude 😍" },
-       { "username": "glambypower", "text": "You’re not just seen — you’re remembered 💫" },
-       { "username": "baddieinbloom", "text": "The volume, the vibes, the vision 💋" }
+      { "username": "restandreshape", "text": "lowkey my favorite kind of vibe tbh" },
+      { "username": "sunlight.reflex", "text": "the calm after the burn hits different" },
+      { "username": "bodyafterburn", "text": "giving post-leg-day stillness 🔥" },
+      { "username": "breathewithlex", "text": "this photo literally exhaled at me" },
+      { "username": "fitinframes", "text": "you made ‘pause’ look powerful" },
+      { "username": "coremomentstudio", "text": "🕯️🫶" },
+      { "username": "morningmobility", "text": "this the ‘I trained and now I stretch forever’ look" },
+      { "username": "movementandmood", "text": "beautiful energy, even in the quiet" },
+      { "username": "lexa.moves", "text": "okay but this lighting was on your side fr" },
+      { "username": "heldtogethertoday", "text": "💭🧘‍♀️" }
     ]
   },
   {
     "id": "7",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Berlin, Germany",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/xqxj7L93/20250609-1624-image.png"
+      "url": "https://i.ibb.co/TDk8GVW4/7.jpg"
     },
-    "caption": "On my way, dressed in confidence and curves. Because showing up as yourself is always in style.",
-    "likes": 9962,
+    "caption": "that little window between finishing a workout and joining the world again. I kinda live for it.",    "likes": 9962,
     "timestamp": "2025/01/02",
     "comments": [
-      { "username": "styleonroute", "text": "Confidence is your best accessory 😍" },
-      { "username": "blushmodeco", "text": "The curves, the glow, the grace — stunning ✨" },
-      { "username": "drivebydivine", "text": "On your way to break hearts and norms 💋" },
-      { "username": "curvesandcaramel", "text": "Effortless beauty with a whole lot of power 💖" },
-      { "username": "selfstyledrose", "text": "You're a walking reminder that real is beautiful 🌸" },
-      { "username": "gorgeousgetaway", "text": "Serving elegance from the passenger seat 💫" },
-      { "username": "confidentlycozy", "text": "That’s what showing up for yourself looks like 👏" },
-      { "username": "curvecore", "text": "Can we talk about this entire vibe?? 🔥" },
-      { "username": "sunsetandselflove", "text": "The way you radiate self-assurance 🥺✨" },
-      { "username": "bodykindclub", "text": "Proof that confidence is always in fashion 💯" }
+      { "username": "restingpulse", "text": "this caption is a whole mood fr" },
+      { "username": "downtimeheroine", "text": "I get this so much it hurts (in a good way)" },
+      { "username": "gainsncoffee", "text": "post-workout clarity >>>" },
+      { "username": "soreinmotion", "text": "okay but why is this both strong and soft??" },
+      { "username": "puregymenergy", "text": "the glow is real here 🔥" },
+      { "username": "trainingthenquiet", "text": "✨💭" },
+      { "username": "aftertheburn", "text": "the moment before emails ruin it all lol" },
+      { "username": "absandair", "text": "you snapped and then exhaled huh" },
+      { "username": "urbanstrengthmuse", "text": "that ‘I moved and now I feel like a person again’ look" },
+      { "username": "morningsinclay", "text": "💫💫💫" }
     ]
   },
   {
     "id": "8",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Lake Como, Italy",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/6JrL6gk8/20250609-1623-image.png"
+      "url": "https://i.ibb.co/4wMF6FzS/8.jpg"
     },
-    "caption": "Curves, calm waters, and feeling completely at peace. Confidence isn't loud — sometimes, it just glows.",
-    "likes": 12031,
+    "caption": "moved my body, opened a window, drank some water. not a deep life update, just a soft one.",    "likes": 12031,
     "timestamp": "2024/11/25",
     "comments": [
-      { "username": "calmbeautydaily", "text": "You’re glowing like the water around you ✨" },
-      { "username": "serenebodyvibes", "text": "Peace, power, and perfect curves 💖" },
-      { "username": "moonlight.muse", "text": "The calmest kind of beautiful 🕊️" },
-      { "username": "sundayserenityclub", "text": "Confidence doesn’t have to shout — you’re proof 🌊" },
-      { "username": "curvesandcompass", "text": "Tranquil, stunning, unforgettable 💫" },
-      { "username": "radiatequietly", "text": "The softest strength I’ve ever seen 😍" },
-      { "username": "poisedinpearl", "text": "Every detail here is pure elegance 💋" },
-      { "username": "floatwithgrace", "text": "Beauty in stillness and curves in motion ✨" },
-      { "username": "thegentleedit", "text": "You radiate peace and presence all at once 🌿" },
-      { "username": "softandsovereign", "text": "Confidence looks good when it glows like this 🔥" }
+      { "username": "slowstrength", "text": "this is the real kind of progress tbh" },
+      { "username": "ritualbeforerush", "text": "I needed this caption today 😮‍💨" },
+      { "username": "corewithcompassion", "text": "nothing major but everything needed" },
+      { "username": "trainlightly", "text": "quiet glow, strong presence ✨" },
+      { "username": "mindinmovement", "text": "this feels like peace on purpose" },
+      { "username": "softpowerhour", "text": "💫🫶" },
+      { "username": "postflowmode", "text": "you said wellness but like… actually" },
+      { "username": "breathebalancebuild", "text": "calm, clear, centered" },
+      { "username": "lightandlifting", "text": "just soft discipline things" },
+      { "username": "warmspaceclub", "text": "☀️🧘‍♀️" }
     ]
   },
   {
     "id": "9",
-    "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/ymN2m0CM/20250502-0208-image.png",
+    "username": "beautynala.ai",
+    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
     "location": "Malibu Beach, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/N6WxYsZ1/20250609-1625-image.png"
+      "url": "https://i.ibb.co/67DnnyQ5/9.jpg"
     },
-    "caption": "Sun, sea, and a body that’s learned to love itself. Every curve catches light — just like confidence does.",
-    "likes": 12783,
+    "caption": "moved my body earlier, now I’m just letting the waves finish what the reps started.",    "likes": 12783,
     "timestamp": "2024/08/30",
     "comments": [
-       { "username": "sunkissed.babe", "text": "Confidence looks better than the ocean glow 💫" },
-       { "username": "curvywaves", "text": "Every curve is catching light and serving life 🔥" },
-       { "username": "coastalradiance", "text": "Sunlight and self-love hit different on you 🌞" },
-       { "username": "shorelinestunner", "text": "You shine brighter than the waves 😍" },
-       { "username": "breezebodylove", "text": "Curves built by love, kissed by sun 💖" },
-       { "username": "oceanauraedit", "text": "This is what body peace looks like 💋" },
-       { "username": "beachsidevibes", "text": "Serving beach beauty and body goals 🐚" },
-       { "username": "seaside.muse", "text": "Your glow belongs in every season, not just summer 🌊" },
-       { "username": "tidesandtruth", "text": "Confidence in every wave and every inch 💥" },
-       { "username": "realandradiant", "text": "That’s the kind of self-love we all need to see ✨" }
+      { "username": "coastalconditioned", "text": "the afterburn hits different near water fr" },
+      { "username": "zenwarmups", "text": "you look like you train with the ocean 😮‍💨" },
+      { "username": "sunkissedrecovery", "text": "post-workout + beach = unstoppable combo" },
+      { "username": "airandabs", "text": "this is the most peaceful power I’ve seen today" },
+      { "username": "wavesandwarmups", "text": "you’re not posing, you’re flowing" },
+      { "username": "heatandhold", "text": "🔥🌊" },
+      { "username": "breathinnow", "text": "training in nature makes everything hit deeper" },
+      { "username": "sunsoftcore", "text": "I felt this in my spine AND my glutes" },
+      { "username": "paceandpresence", "text": "okay this is cinematic wellness atp" },
+      { "username": "bodyandbrine", "text": "🌞🫀🌊" }
     ]
   },
 ];
