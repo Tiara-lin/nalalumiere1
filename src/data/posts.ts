@@ -18,219 +18,226 @@ export const posts: Post[] = [
   {
     "id": "1",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/ch2wnwsF/1.jpg"
+      "url": "https://i.ibb.co/TD6mwjsg/1.jpg"
     },
-    "caption": "Hi, did you move your body today? I almost didn’t lol but glad I did." ,
+    "caption": "This is what grounded confidence looks like.",
     "likes": 10343,
     "timestamp": "2 HOURS AGO",
     "comments": [
-      { "username": "ninasayshi", "text": "Wait… how do you even look this good just leaning on a wall 😭" },
-      { "username": "sunnywithaview", "text": "No way this is real???" },
-      { "username": "brittany.glow", "text": "Girl what is this lighting bc wow 😍" },
-      { "username": "leanfitvibes", "text": "This pic just cleared my skin and my mood" },
-      { "username": "heyitsmira", "text": "Just casually being perfect huh 🤨" },
-      { "username": "viviinmotion", "text": "🔥🔥🔥" },
-      { "username": "gigi.snapz", "text": "🫶💥" },
-      { "username": "wheresmycoffee", "text": "Can’t even hate. This is insane 🔥" },
-      { "username": "rachel.motion", "text": "Okay miss effortless 🔥🔥" },
-      { "username": "softfocusclub", "text": "💫💫" }
+      { "username": "amy50", "text": "💪🌸" },
+      { "username": "dylan_67", "text": "📸📍" },
+      { "username": "sara44", "text": "Endorphins glow" },
+      { "username": "candy11", "text": "Tone over trend" },
+      { "username": "matt91", "text": "Her flow is fierce" },
+      { "username": "ben18", "text": "Shoulders speak volumes" },
+      { "username": "ivy_87", "text": "Power in calm" },
+      { "username": "luke21", "text": "Holding herself up" },
+      { "username": "nora_63", "text": "Stretched and seen" },
+      { "username": "jake33", "text": "💥💪" }
     ]
   },
   {
     "id": "2",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/GQyc6TT9/2.jpg"
+      "url": "https://i.ibb.co/Kv4fcF0/2.jpg"
     },
-    "caption": "Upper body day hits different when you actually commit to full reps 😮‍💨 not complaining tho, kinda love the burn",    "likes": 10020,
+    "caption": "Not toned for approval—toned for myself.",
+    "likes": 10020,
     "timestamp": "2025/05/01",
     "comments": [
-      { "username": "zoe.with.the.z", "text": "Why are you glowing like that in a gym 😭" },
-      { "username": "miralifts", "text": "This lighting?? Unreal" },
-      { "username": "noodlestretch", "text": "okay miss post-workout editorial??" },
-      { "username": "tiredbutcute", "text": "I haven’t been to the gym in 2 weeks and now I feel judged lol" },
-      { "username": "abs.n.apples", "text": "You didn’t need to snap this hard tbh" },
-      { "username": "visualprotein", "text": "🔥🔥🔥" },
-      { "username": "jordygym", "text": "💪✨" },
-      { "username": "no.more.cardio", "text": "this is my sign to go stretch at least" },
-      { "username": "heyitscassie", "text": "help this is so good I can’t" },
-      { "username": "softmorningmode", "text": "😮‍💨😮‍💨" }
+      { "username": "tyler37", "text": "Movement is medicine" },
+      { "username": "ella42", "text": "Built with care" },
+      { "username": "jess24", "text": "Serenity and sweat" },
+      { "username": "dan.02", "text": "Sweat is sacred" },
+      { "username": "ruby87", "text": "Glow from effort" },
+      { "username": "mia_51", "text": "Strong minds, strong strides" },
+      { "username": "amy_04", "text": "Rest is part of power" },
+      { "username": "nate.73", "text": "Toned for joy" },
+      { "username": "rachel84", "text": "Energy in movement" },
+      { "username": "faye36", "text": "📍Self-owned strength" }
     ]
   },
-  { 
+  {
     "id": "3",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Tuscany, Italy",
     "media": {
-    "type": "image",
-    "url": "https://i.ibb.co/rGnthrPr/3.jpg"
+      "type": "image",
+      "url": "https://i.ibb.co/wrrYzXNW/3.jpg"
     },
-    "caption": "walked longer than I planned, but my head feels clearer now. sunset walks > everything tbh",    "likes": 9724,
+    "caption": "I bring power into every room I enter.",
+    "likes": 9724,
     "timestamp": "2025/04/10",
     "comments": [
-      { "username": "breathworkbrooke", "text": "sunset walks are the real therapy honestly" },
-      { "username": "zoey.exe", "text": "you’re literally the main character here" },
-      { "username": "abs.in.progress", "text": "core strong, glow stronger 🔥" },
-      { "username": "trainwithtea", "text": "nature + movement = magic combo every time" },
-      { "username": "honestlysore", "text": "the ‘didn’t plan to but ended up proud’ mood" },
-      { "username": "lean.with.lex", "text": "🔥🔥🔥" },
-      { "username": "evening.energy", "text": "✨🫶" },
-      { "username": "postlegdaymood", "text": "kinda peaceful, kinda powerful" },
-      { "username": "fitfeelsreal", "text": "I feel this in my soul and my calves lol" },
-      { "username": "walkmoreworryless", "text": "🧘‍♀️🌾" }
+      { "username": "kevin31", "text": "Bright with strength" },
+      { "username": "mark22", "text": "Her presence leads" },
+      { "username": "zoe61", "text": "Toned and centered" },
+      { "username": "lucy09", "text": "💥🔥" },
+      { "username": "ben_42", "text": "Confidence isn’t loud" },
+      { "username": "sophie11", "text": "Body says yes" },
+      { "username": "leo41", "text": "Energetic grace" },
+      { "username": "ivy90", "text": "Built in quiet power" },
+      { "username": "mia64", "text": "Grounded and glowing" },
+      { "username": "dan_01", "text": "Self-trust is strength" }
     ]
-
   },
   {
     "id": "4",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Los Angeles, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/C3MpSZgw/4.jpg"
-    }, 
-    "caption": "resting between sets and thinking about… absolutely nothing. just breathing tbh",    "likes": 11248,
+      "url": "https://i.ibb.co/chzf0qd9/4.jpg"
+    },
+    "caption": "Strength is elegant, just like self-acceptance",
+    "likes": 11248,
     "timestamp": "2025/03/25",
     "comments": [
-      { "username": "coreandcocoa", "text": "that’s the real post-set meditative state lol" },
-      { "username": "leanlegends", "text": "looking strong AND unbothered 😮‍💨" },
-      { "username": "mindbodyloop", "text": "okay but who looks this good during REST??" },
-      { "username": "postpushupclub", "text": "pause game elite" },
-      { "username": "stillactive", "text": "this counts as active recovery right" },
-      { "username": "buildandbreathe", "text": "🔥🔥🔥" },
-      { "username": "afternoonmobility", "text": "💭🧘‍♀️" },
-      { "username": "gains.with.glow", "text": "this is my favorite version of strong" },
-      { "username": "miraflexx", "text": "you really said rest but make it aesthetic" },
-      { "username": "casualcore", "text": "the definition of calm strength" }
+      { "username": "kevin78", "text": "Recovery is power" },
+      { "username": "mark48", "text": "Power grows quietly" },
+      { "username": "zoe93", "text": "Confidence through effort" },
+      { "username": "faye27", "text": "Athletic + aesthetic" },
+      { "username": "ivy34", "text": "Training for peace" },
+      { "username": "sara90", "text": "Discipline glows" },
+      { "username": "candy57", "text": "Grit with grace" },
+      { "username": "matt75", "text": "Soft but solid" },
+      { "username": "dan_17", "text": "No filter, just form" },
+      { "username": "mia.44", "text": "💪🌤️" }
     ]
   },
   {
     "id": "5",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Barcelona, Spain",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/FbGcZttH/5.jpg"
+      "url": "https://i.ibb.co/pgBB18B/5.jpg"
     },
-    "caption": "morning movement to reset my head. city was loud but my focus was louder.",    "likes": 10877,
+    "caption": "Every muscle is a reminder: I chose me.",
+    "likes": 10877,
     "timestamp": "2025/03/01",
     "comments": [
-      { "username": "grindnflow", "text": "you in focus mode >> everything else" },
-      { "username": "6amset", "text": "that ‘don’t talk to me I’m training’ energy" },
-      { "username": "citycoremovement", "text": "honestly this is the gym fit + vibe combo I needed" },
-      { "username": "runbyritual", "text": "the light?? the posture?? elite." },
-      { "username": "formfirst", "text": "clean, strong, present 🔥" },
-      { "username": "streetsandsweat", "text": "😤💪" },
-      { "username": "mindovermirror", "text": "I can hear the discipline through this" },
-      { "username": "urbanwarmup", "text": "power stance activated fr" },
-      { "username": "leanlinesdaily", "text": "👊✨" },
-      { "username": "gritnpoise", "text": "quiet confidence just hits different" }
+      { "username": "sophie43", "text": "Glow from the reps" },
+      { "username": "rachel15", "text": "Endorphins glow" },
+      { "username": "amy49", "text": "Still strong. Still soft." },
+      { "username": "ryan_39", "text": "Body in bloom" },
+      { "username": "nate22", "text": "Grace in repetition" },
+      { "username": "ben_93", "text": "Stamina shows" },
+      { "username": "lucy81", "text": "Muscle = memory" },
+      { "username": "dylan99", "text": "Fuel = love" },
+      { "username": "jess07", "text": "👏 for strong women" },
+      { "username": "hana10", "text": "Built for more" }
     ]
   },
-  { 
+  {
     "id": "6",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Amsterdam, Netherlands",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/HL0Mh0bk/6.jpg"
+      "url": "https://i.ibb.co/b5nHZYN4/6.jpg"
     },
-    "caption": "low energy, soft light, stretched out. that kinda day.",      "likes": 10594,
+    "caption": "Soft smile. Strong spirit. That’s balance.",
+    "likes": 10594,
     "timestamp": "2025/02/05",
     "comments": [
-      { "username": "restandreshape", "text": "lowkey my favorite kind of vibe tbh" },
-      { "username": "sunlight.reflex", "text": "the calm after the burn hits different" },
-      { "username": "bodyafterburn", "text": "giving post-leg-day stillness 🔥" },
-      { "username": "breathewithlex", "text": "this photo literally exhaled at me" },
-      { "username": "fitinframes", "text": "you made ‘pause’ look powerful" },
-      { "username": "coremomentstudio", "text": "🕯️🫶" },
-      { "username": "morningmobility", "text": "this the ‘I trained and now I stretch forever’ look" },
-      { "username": "movementandmood", "text": "beautiful energy, even in the quiet" },
-      { "username": "lexa.moves", "text": "okay but this lighting was on your side fr" },
-      { "username": "heldtogethertoday", "text": "💭🧘‍♀️" }
+      { "username": "tyler20", "text": "Toned for tomorrow" },
+      { "username": "ruby71", "text": "Warm-down wins" },
+      { "username": "jake04", "text": "💥🧘" },
+      { "username": "ivy_38", "text": "Push, breathe, love" },
+      { "username": "faye60", "text": "Mind leads body" },
+      { "username": "mia17", "text": "Powerful in presence" },
+      { "username": "mark59", "text": "Healing in motion" },
+      { "username": "nora07", "text": "Unapologetic strength" },
+      { "username": "zoe_53", "text": "Vital and visible" },
+      { "username": "dan03", "text": "Her walk is weighted with power" }
     ]
   },
   {
     "id": "7",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Berlin, Germany",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/TDk8GVW4/7.jpg"
+      "url": "https://i.ibb.co/27SGRp56/7.jpg"
     },
-    "caption": "that little window between finishing a workout and joining the world again. I kinda live for it.",    "likes": 9962,
+    "caption": "Fuel your body. Honor its power.",
+    "likes": 9962,
     "timestamp": "2025/01/02",
     "comments": [
-      { "username": "restingpulse", "text": "this caption is a whole mood fr" },
-      { "username": "downtimeheroine", "text": "I get this so much it hurts (in a good way)" },
-      { "username": "gainsncoffee", "text": "post-workout clarity >>>" },
-      { "username": "soreinmotion", "text": "okay but why is this both strong and soft??" },
-      { "username": "puregymenergy", "text": "the glow is real here 🔥" },
-      { "username": "trainingthenquiet", "text": "✨💭" },
-      { "username": "aftertheburn", "text": "the moment before emails ruin it all lol" },
-      { "username": "absandair", "text": "you snapped and then exhaled huh" },
-      { "username": "urbanstrengthmuse", "text": "that ‘I moved and now I feel like a person again’ look" },
-      { "username": "morningsinclay", "text": "💫💫💫" }
+      { "username": "leo_12", "text": "📍Self-built" },
+      { "username": "sara.26", "text": "Form and fire" },
+      { "username": "candy.94", "text": "Lifting my way" },
+      { "username": "ella91", "text": "Power rests in peace" },
+      { "username": "kevin06", "text": "Her strength glows" },
+      { "username": "ruby.19", "text": "Core confidence" },
+      { "username": "matt59", "text": "Steady and strong" },
+      { "username": "luke43", "text": "Balanced from inside" },
+      { "username": "mark72", "text": "Slow and strong" },
+      { "username": "sophie08", "text": "Move with meaning" }
     ]
   },
   {
     "id": "8",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Lake Como, Italy",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/4wMF6FzS/8.jpg"
+      "url": "https://i.ibb.co/G4gGQ439/8.jpg"
     },
-    "caption": "moved my body, opened a window, drank some water. not a deep life update, just a soft one.",    "likes": 12031,
+    "caption": "My strength doesn’t need permission to shine.",
+    "likes": 12031,
     "timestamp": "2024/11/25",
     "comments": [
-      { "username": "slowstrength", "text": "this is the real kind of progress tbh" },
-      { "username": "ritualbeforerush", "text": "I needed this caption today 😮‍💨" },
-      { "username": "corewithcompassion", "text": "nothing major but everything needed" },
-      { "username": "trainlightly", "text": "quiet glow, strong presence ✨" },
-      { "username": "mindinmovement", "text": "this feels like peace on purpose" },
-      { "username": "softpowerhour", "text": "💫🫶" },
-      { "username": "postflowmode", "text": "you said wellness but like… actually" },
-      { "username": "breathebalancebuild", "text": "calm, clear, centered" },
-      { "username": "lightandlifting", "text": "just soft discipline things" },
-      { "username": "warmspaceclub", "text": "☀️🧘‍♀️" }
+      { "username": "amy23", "text": "📸🔥" },
+      { "username": "nora99", "text": "Power = presence" },
+      { "username": "leo57", "text": "Wellness is worth it" },
+      { "username": "zoe_40", "text": "Progress over perfection" },
+      { "username": "tyler64", "text": "Fuel your fire" },
+      { "username": "ben32", "text": "Empowered effort" },
+      { "username": "lily44", "text": "Calmly capable" },
+      { "username": "dan_31", "text": "Mindful and mighty" },
+      { "username": "lucy27", "text": "Confidence from the core" },
+      { "username": "ivy22", "text": "Built with intention" }
     ]
   },
   {
     "id": "9",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/ch10PK1F/8.jpg",
+    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
     "location": "Malibu Beach, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/67DnnyQ5/9.jpg"
+      "url": "https://i.ibb.co/bgS6h1Ck/9.jpg"
     },
-    "caption": "moved my body earlier, now I’m just letting the waves finish what the reps started.",    "likes": 12783,
+    "caption": "Beauty builds in stillness too.",
+    "likes": 12783,
     "timestamp": "2024/08/30",
     "comments": [
-      { "username": "coastalconditioned", "text": "the afterburn hits different near water fr" },
-      { "username": "zenwarmups", "text": "you look like you train with the ocean 😮‍💨" },
-      { "username": "sunkissedrecovery", "text": "post-workout + beach = unstoppable combo" },
-      { "username": "airandabs", "text": "this is the most peaceful power I’ve seen today" },
-      { "username": "wavesandwarmups", "text": "you’re not posing, you’re flowing" },
-      { "username": "heatandhold", "text": "🔥🌊" },
-      { "username": "breathinnow", "text": "training in nature makes everything hit deeper" },
-      { "username": "sunsoftcore", "text": "I felt this in my spine AND my glutes" },
-      { "username": "paceandpresence", "text": "okay this is cinematic wellness atp" },
-      { "username": "bodyandbrine", "text": "🌞🫀🌊" }
+      { "username": "rachel.61", "text": "💡💪" },
+      { "username": "jess_13", "text": "That posture says it all" },
+      { "username": "ryan65", "text": "Discipline is beauty" },
+      { "username": "faye82", "text": "📸🧘‍♀️" },
+      { "username": "mark93", "text": "Worthy and well" },
+      { "username": "mia.73", "text": "Confidence from within" },
+      { "username": "nate.85", "text": "Tone that tells a story" },
+      { "username": "ruby66", "text": "Breathe. Move. Repeat." },
+      { "username": "kevin49", "text": "Built on care" },
+      { "username": "zoe_24", "text": "Light in the lift" }
     ]
-  },
+  }
 ];
