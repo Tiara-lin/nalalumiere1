@@ -22,7 +22,7 @@ export const posts: Post[] = [
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/TD6mwjsg/1.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/1.jpg"
     },
     "caption": "This is what grounded confidence looks like.",
     "likes": 10343,
@@ -47,7 +47,7 @@ export const posts: Post[] = [
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/Kv4fcF0/2.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/2.jpg"
     },
     "caption": "Not toned for approval—toned for myself.",
     "likes": 10020,
@@ -72,7 +72,7 @@ export const posts: Post[] = [
     "location": "Tuscany, Italy",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/wrrYzXNW/3.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/3.jpg"
     },
     "caption": "I bring power into every room I enter.",
     "likes": 9724,
@@ -97,7 +97,7 @@ export const posts: Post[] = [
     "location": "Los Angeles, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/chzf0qd9/4.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/4.jpg"
     },
     "caption": "Strength is elegant, just like self-acceptance",
     "likes": 11248,
@@ -122,7 +122,7 @@ export const posts: Post[] = [
     "location": "Barcelona, Spain",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/pgBB18B/5.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/5.jpg"
     },
     "caption": "Every muscle is a reminder: I chose me.",
     "likes": 10877,
@@ -147,7 +147,7 @@ export const posts: Post[] = [
     "location": "Amsterdam, Netherlands",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/b5nHZYN4/6.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/6.jpg"
     },
     "caption": "Soft smile. Strong spirit. That’s balance.",
     "likes": 10594,
@@ -172,7 +172,7 @@ export const posts: Post[] = [
     "location": "Berlin, Germany",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/27SGRp56/7.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/7.jpg"
     },
     "caption": "Fuel your body. Honor its power.",
     "likes": 9962,
@@ -197,7 +197,7 @@ export const posts: Post[] = [
     "location": "Lake Como, Italy",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/G4gGQ439/8.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/8.jpg"
     },
     "caption": "My strength doesn’t need permission to shine.",
     "likes": 12031,
@@ -222,7 +222,7 @@ export const posts: Post[] = [
     "location": "Malibu Beach, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/bgS6h1Ck/9.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/9.jpg"
     },
     "caption": "Beauty builds in stillness too.",
     "likes": 12783,
