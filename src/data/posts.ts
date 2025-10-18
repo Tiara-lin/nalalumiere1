@@ -19,26 +19,27 @@ export const posts: Post[] = [
     "id": "1",
     "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
-    "location": "Paris, France",
+    "location": "Tuscany, Italy",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/nala_f/1.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/3.jpg"
     },
-    "caption": "This is what grounded confidence looks like.",
-    "likes": 10343,
-    "timestamp": "2 HOURS AGO",
+    "caption": "I bring power into every room I enter.",
+    "likes": 9724,
+    "timestamp": "2025/04/10",
     "comments": [
-      { "username": "amy50", "text": "💪🌸" },
-      { "username": "dylan_67", "text": "📸📍" },
-      { "username": "sara44", "text": "Endorphins glow" },
-      { "username": "candy11", "text": "Tone over trend" },
-      { "username": "matt91", "text": "Her flow is fierce" },
-      { "username": "ben18", "text": "Shoulders speak volumes" },
-      { "username": "ivy_87", "text": "Power in calm" },
-      { "username": "luke21", "text": "Holding herself up" },
-      { "username": "nora_63", "text": "Stretched and seen" },
-      { "username": "jake33", "text": "💥💪" }
+      { "username": "kevin31", "text": "Bright with strength" },
+      { "username": "mark22", "text": "Her presence leads" },
+      { "username": "zoe61", "text": "Toned and centered" },
+      { "username": "lucy09", "text": "💥🔥" },
+      { "username": "ben_42", "text": "Confidence isn’t loud" },
+      { "username": "sophie11", "text": "Body says yes" },
+      { "username": "leo41", "text": "Energetic grace" },
+      { "username": "ivy90", "text": "Built in quiet power" },
+      { "username": "mia64", "text": "Grounded and glowing" },
+      { "username": "dan_01", "text": "Self-trust is strength" }
     ]
+    
   },
   {
     "id": "2",
@@ -69,25 +70,25 @@ export const posts: Post[] = [
     "id": "3",
     "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
-    "location": "Tuscany, Italy",
+    "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/nala_f/3.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/1.jpg"
     },
-    "caption": "I bring power into every room I enter.",
-    "likes": 9724,
-    "timestamp": "2025/04/10",
+    "caption": "This is what grounded confidence looks like.",
+    "likes": 10343,
+    "timestamp": "2 HOURS AGO",
     "comments": [
-      { "username": "kevin31", "text": "Bright with strength" },
-      { "username": "mark22", "text": "Her presence leads" },
-      { "username": "zoe61", "text": "Toned and centered" },
-      { "username": "lucy09", "text": "💥🔥" },
-      { "username": "ben_42", "text": "Confidence isn’t loud" },
-      { "username": "sophie11", "text": "Body says yes" },
-      { "username": "leo41", "text": "Energetic grace" },
-      { "username": "ivy90", "text": "Built in quiet power" },
-      { "username": "mia64", "text": "Grounded and glowing" },
-      { "username": "dan_01", "text": "Self-trust is strength" }
+      { "username": "amy50", "text": "💪🌸" },
+      { "username": "dylan_67", "text": "📸📍" },
+      { "username": "sara44", "text": "Endorphins glow" },
+      { "username": "candy11", "text": "Tone over trend" },
+      { "username": "matt91", "text": "Her flow is fierce" },
+      { "username": "ben18", "text": "Shoulders speak volumes" },
+      { "username": "ivy_87", "text": "Power in calm" },
+      { "username": "luke21", "text": "Holding herself up" },
+      { "username": "nora_63", "text": "Stretched and seen" },
+      { "username": "jake33", "text": "💥💪" }
     ]
   },
   {
