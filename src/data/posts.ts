@@ -18,11 +18,11 @@ export const posts: Post[] = [
   {
     "id": "1",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/1.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/1.jpg"
     },
     "caption": "This is what grounded confidence looks like.",
     "likes": 10343,
@@ -43,11 +43,11 @@ export const posts: Post[] = [
   {
     "id": "2",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/2.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/2.jpg"
     },
     "caption": "Not toned for approval—toned for myself.",
     "likes": 10020,
@@ -68,11 +68,11 @@ export const posts: Post[] = [
   {
     "id": "3",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Tuscany, Italy",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/3.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/3.jpg"
     },
     "caption": "I bring power into every room I enter.",
     "likes": 9724,
@@ -93,11 +93,11 @@ export const posts: Post[] = [
   {
     "id": "4",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Los Angeles, CA",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/4.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/4.jpg"
     },
     "caption": "Strength is elegant, just like self-acceptance",
     "likes": 11248,
@@ -118,11 +118,11 @@ export const posts: Post[] = [
   {
     "id": "5",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Barcelona, Spain",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/5.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/5.jpg"
     },
     "caption": "Every muscle is a reminder: I chose me.",
     "likes": 10877,
@@ -143,11 +143,11 @@ export const posts: Post[] = [
   {
     "id": "6",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Amsterdam, Netherlands",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/6.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/6.jpg"
     },
     "caption": "Soft smile. Strong spirit. That’s balance.",
     "likes": 10594,
@@ -168,11 +168,11 @@ export const posts: Post[] = [
   {
     "id": "7",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Berlin, Germany",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/7.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/7.jpg"
     },
     "caption": "Fuel your body. Honor its power.",
     "likes": 9962,
@@ -193,11 +193,11 @@ export const posts: Post[] = [
   {
     "id": "8",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Lake Como, Italy",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/8.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/8.jpg"
     },
     "caption": "My strength doesn’t need permission to shine.",
     "likes": 12031,
@@ -218,11 +218,11 @@ export const posts: Post[] = [
   {
     "id": "9",
     "username": "beautynala.ai",
-    "userImage": "https://i.ibb.co/JjJXqRx8/9.jpg",
+    "userImage": "https://tiara-lin.github.io/mockup-images/nala_h/9.jpg",
     "location": "Malibu Beach, CA",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/9.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/nala_f/9.jpg"
     },
     "caption": "Beauty builds in stillness too.",
     "likes": 12783,

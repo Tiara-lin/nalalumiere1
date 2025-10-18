@@ -48,7 +48,7 @@ const Stories: React.FC = () => {
   const stories = [
     {
       username: 'beautynala.ai',
-      imageUrl: 'https://i.ibb.co/JjJXqRx8/9.jpg',
+      imageUrl: 'https://tiara-lin.github.io/mockup-images/nala_h/9.jpg',
       isViewed: true
     },
     {
