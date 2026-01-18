@@ -165,6 +165,38 @@ const Post: React.FC<PostProps> = ({
 
   const displayedComments = showAllComments ? comments : comments.slice(0, 2);
 
+  // ---- 解析 @mention 和 #hashtag 的函數 ----
+  const parseTextWithMentionsAndHashtags = (text: string): (string | JSX.Element)[] => {
+    const parts: (string | JSX.Element)[] = [];
+    const regex = /(@\w+|#\w+)/g;
+    let lastIndex = 0;
+
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      // 添加匹配前的文本
+      if (match.index > lastIndex) {
+        parts.push(text.slice(lastIndex, match.index));
+      }
+
+      // 添加藍色的 mention 或 hashtag
+      const tag = match[0];
+      parts.push(
+        <span key={`${tag}-${match.index}`} className="text-blue-500 font-semibold cursor-pointer hover:underline">
+          {tag}
+        </span>
+      );
+
+      lastIndex = regex.lastIndex;
+    }
+
+    // 添加剩余文本
+    if (lastIndex < text.length) {
+      parts.push(text.slice(lastIndex));
+    }
+
+    return parts.length > 0 ? parts : [text];
+  };
+
   return (
     <div ref={postRef} className="bg-white border border-gray-200 rounded-lg mb-6 overflow-hidden">
       {/* Header */}
@@ -280,7 +312,7 @@ const Post: React.FC<PostProps> = ({
 
         <div className="mt-1">
           <p className="text-sm">
-            <span className="font-semibold">{username}</span> {caption}
+            <span className="font-semibold">{username}</span> {parseTextWithMentionsAndHashtags(caption)}
           </p>
         </div>
 
@@ -293,7 +325,7 @@ const Post: React.FC<PostProps> = ({
             )}
             {displayedComments.map((comment, index) => (
               <div key={index} className="text-sm mb-1">
-                <span className="font-semibold">{comment.username}</span> {comment.text}
+                <span className="font-semibold">{comment.username}</span> {parseTextWithMentionsAndHashtags(comment.text)}
               </div>
             ))}
             {showAllComments && comments.length > 2 && (

@@ -47,7 +47,7 @@ function App() {
             <Profile 
               username="beautynala.ai"
               name="Nala Lumiere"
-              imageUrl="https://tiara-lin.github.io/mockup-images/nala_mixed/9.jpg"
+              imageUrl="https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg"
             />
             <Suggestions />
             <Footer />
