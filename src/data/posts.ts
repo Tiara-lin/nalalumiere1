@@ -17,7 +17,7 @@ export interface Post {
 export const posts: Post[] = [
   {
     "id": "1",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Miami Beach, Florida",
     "media": {
@@ -42,7 +42,7 @@ export const posts: Post[] = [
   },
   {
     "id": "2",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Watkins Glen, New York",
     "media": {
@@ -67,7 +67,7 @@ export const posts: Post[] = [
   },
   {
     "id": "3",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Lake Tahoe, California",
     "media": {
@@ -92,7 +92,7 @@ export const posts: Post[] = [
   },
   {
     "id": "4",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Moab, Utah",
     "media": {
@@ -117,7 +117,7 @@ export const posts: Post[] = [
   },
   {
     "id": "5",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "flower Field, Kansas",
     "media": {
@@ -143,7 +143,7 @@ export const posts: Post[] = [
   },
   {
     "id": "6",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Minneapolis, Minnesota",
     "media": {
@@ -168,7 +168,7 @@ export const posts: Post[] = [
   },
   {
     "id": "7",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Grand Teton, Wyoming",
     "media": {
@@ -193,7 +193,7 @@ export const posts: Post[] = [
   },
   {
     "id": "8",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Asheville, North Carolina",
     "media": {
@@ -218,7 +218,7 @@ export const posts: Post[] = [
   },
   {
     "id": "9",
-    "username": "beautyamy.ai",
+    "username": "beautynala.ai",
     "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/4.jpg",
     "location": "Nebraska Grasslands, USA",
     "media": {
