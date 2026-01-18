@@ -22,7 +22,7 @@ export const posts: Post[] = [
     "location": "Miami Beach, Florida",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/5.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/1.jpg"
     },
     "caption": "sea therapy 🌊",
     "likes": 10877,
@@ -122,7 +122,7 @@ export const posts: Post[] = [
     "location": "flower Field, Kansas",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/1.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/5.jpg"
     },
     "caption": "blooming with the flowers 🌼",
     "likes": 10520,
@@ -148,7 +148,7 @@ export const posts: Post[] = [
     "location": "Minneapolis, Minnesota",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/9.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/6.jpg"
     },
     "caption": "ice time ☃️",
     "likes": 12783,
@@ -173,7 +173,7 @@ export const posts: Post[] = [
     "location": "Grand Teton, Wyoming",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/8.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/7.jpg"
     },
     "caption": "Mountain moments🏔️",
     "likes": 12031,
@@ -198,7 +198,7 @@ export const posts: Post[] = [
     "location": "Asheville, North Carolina",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/6.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/8.jpg"
     },
     "caption": "fall is calling 🍁",
     "likes": 9724,
@@ -223,7 +223,7 @@ export const posts: Post[] = [
     "location": "Nebraska Grasslands, USA",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/7.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/nala/nala_natural/fs/9.jpg"
     },
     "caption": "In my golden hour. Easy and glowing ✨",
     "likes": 9962,
