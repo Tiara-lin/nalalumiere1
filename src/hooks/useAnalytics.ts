@@ -3,7 +3,7 @@ import axios from 'axios';
 import { UUIDInfo, getFinalUUIDInfo } from '../utils/uuidResolver';
 
 // ✅ 統一 Base URL
-export const API_BASE_URL = 'https://evalumiere1-production.up.railway.app/api';
+export const API_BASE_URL = 'https://nalalumiere1-production.up.railway.app/api';
 
 let sessionId: string | null = null;
 
