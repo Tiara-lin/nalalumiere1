@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import axios from 'axios';
 
 // ✅ 統一 Base URL
-export const API_BASE_URL = 'https://nalalumiere1-production.up.railway.app/api';
+export const API_BASE_URL = 'https://evalumiere1-production.up.railway.app/api';
 
 let sessionId: string | null = null;
 
@@ -38,6 +38,9 @@ export const useAnalytics = (): AnalyticsHook => {
       sessionId = savedSession;
     }
 
+    // ✅ 從 URL query 或 localStorage 取得 UUID
+    const params = new URLSearchParams(window.location.search);
+    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
     const uuid = localStorage.getItem('uuid');
 
     // ✅ 檢查 UUID 格式與存在性
@@ -54,6 +57,7 @@ export const useAnalytics = (): AnalyticsHook => {
       page_url: window.location.href,
       session_id: sessionId || null,
       uuid,
+      pid: pidFromQuery,
     };
 
     console.log('[TRACK SESSION PAYLOAD]', payload);
@@ -111,6 +115,9 @@ export const useAnalytics = (): AnalyticsHook => {
       return;
     }
 
+    // ✅ 從 URL query 取得 pid
+    const params = new URLSearchParams(window.location.search);
+    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
     const uuid = localStorage.getItem('uuid');
 
     const payload = {
@@ -120,6 +127,7 @@ export const useAnalytics = (): AnalyticsHook => {
       post_username: postUsername,
       additional_data: additionalData,
       uuid,
+      pid: pidFromQuery,
     };
 
     console.log('[TRACK INTERACTION PAYLOAD]', payload);
@@ -145,6 +153,9 @@ export const useAnalytics = (): AnalyticsHook => {
       return;
     }
 
+    // ✅ 從 URL query 取得 pid
+    const params = new URLSearchParams(window.location.search);
+    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
     const uuid = localStorage.getItem('uuid');
 
     const payload = {
@@ -155,6 +166,7 @@ export const useAnalytics = (): AnalyticsHook => {
       scroll_percentage: scrollPercentage,
       media_type: mediaType,
       uuid,
+      pid: pidFromQuery,
     };
 
     console.log('[TRACK POST VIEW PAYLOAD]', payload);

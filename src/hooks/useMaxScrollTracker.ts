@@ -82,6 +82,10 @@ export const useMaxScrollTracker = () => {
         sessionStorage.getItem('uuid') ||
         null;
 
+      // ✅ 從 URL query 取得 pid
+      const params = new URLSearchParams(window.location.search);
+      const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
+
       console.log('🚩 using sessionId:', sid);
 
       const finalPct = clamp(maxScrollRef.current);
@@ -92,6 +96,7 @@ export const useMaxScrollTracker = () => {
       const payload = JSON.stringify({
         uuid,
         session_id: sid,
+        pid: pidFromQuery,
         action_type: 'final_max_scroll',
         additional_data: {
           max_scroll_percentage: finalPct

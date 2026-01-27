@@ -38,7 +38,6 @@ async function connectToMongoDB() {
     db = client.db(process.env.DB_NAME);
     console.log(`✅ Connected to DB: ${process.env.DB_NAME}`);
 
-
     await db.collection('user_interactions').createIndex({ timestamp: -1 });
     await db.collection('user_interactions').createIndex({ ip_address: 1 });
     await db.collection('user_interactions').createIndex({ post_id: 1 });
@@ -70,17 +69,54 @@ function getDeviceInfo(req) {
   };
 }
 
+// ✅ UUID 驗證函數
+function isValidUUID(uuid) {
+  if (!uuid) return false;
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(uuid);
+}
+
+// ✅ 決定最終 UUID 的邏輯
+function resolveUUID(pidFromQuery, uuidFromLocalStorage) {
+  let pidFromQuery_ = pidFromQuery;
+  let uuidFromLocalStorage_ = uuidFromLocalStorage;
+  let uuidFinal = null;
+
+  // 優先使用 pid_from_query（若合法）
+  if (pidFromQuery_ && isValidUUID(pidFromQuery_)) {
+    uuidFinal = pidFromQuery_;
+  } else if (uuidFromLocalStorage_ && isValidUUID(uuidFromLocalStorage_)) {
+    uuidFinal = uuidFromLocalStorage_;
+  }
+
+  console.log('[UUID DEBUG] pid_from_query=', pidFromQuery_);
+  console.log('[UUID DEBUG] uuid_from_localStorage=', uuidFromLocalStorage_);
+  console.log('[UUID DEBUG] uuid_final=', uuidFinal);
+
+  return {
+    uuid_final: uuidFinal,
+    pid_from_query: pidFromQuery_,
+    uuid_from_localStorage: uuidFromLocalStorage_
+  };
+}
+
 app.post('/api/track/session', async (req, res) => {
   try {
     const ip_address = getClientIP(req);
     const device_info = getDeviceInfo(req);
-    const { page_url, uuid } = req.body;
+    const { page_url, uuid, pid } = req.body;
+
+    // ✅ 決定最終 UUID
+    const uuidInfo = resolveUUID(pid, uuid);
 
     const sessionData = {
       ip_address,
       session_start: new Date(),
       page_url,
-      uuid,
+      uuid_final: uuidInfo.uuid_final,
+      pid_from_query: uuidInfo.pid_from_query,
+      uuid_from_localStorage: uuidInfo.uuid_from_localStorage,
+      // ⚠️ 保留原欄位以向後相容
+      uuid: uuidInfo.uuid_final,
       ...device_info,
       session_id: `${ip_address}_${Date.now()}`
     };
@@ -98,12 +134,19 @@ app.post('/api/track/interaction', async (req, res) => {
   try {
     const ip_address = getClientIP(req);
     const device_info = getDeviceInfo(req);
-    const { action_type, post_id, post_username, session_id, additional_data, uuid } = req.body;
+    const { action_type, post_id, post_username, session_id, additional_data, uuid, pid } = req.body;
 
     console.log('✅ Received interaction:', req.body);
 
+    // ✅ 決定最終 UUID
+    const uuidInfo = resolveUUID(pid, uuid);
+
     const interactionData = {
-      uuid,
+      uuid_final: uuidInfo.uuid_final,
+      pid_from_query: uuidInfo.pid_from_query,
+      uuid_from_localStorage: uuidInfo.uuid_from_localStorage,
+      // ⚠️ 保留原欄位以向後相容
+      uuid: uuidInfo.uuid_final,
       ip_address,
       action_type,
       post_id,
@@ -127,10 +170,17 @@ app.post('/api/track/post-view', async (req, res) => {
   try {
     const ip_address = getClientIP(req);
     const device_info = getDeviceInfo(req);
-    const { post_id, post_username, session_id, view_duration, scroll_percentage, media_type, uuid } = req.body;
+    const { post_id, post_username, session_id, view_duration, scroll_percentage, media_type, uuid, pid } = req.body;
+
+    // ✅ 決定最終 UUID
+    const uuidInfo = resolveUUID(pid, uuid);
 
     const viewData = {
-      uuid,
+      uuid_final: uuidInfo.uuid_final,
+      pid_from_query: uuidInfo.pid_from_query,
+      uuid_from_localStorage: uuidInfo.uuid_from_localStorage,
+      // ⚠️ 保留原欄位以向後相容
+      uuid: uuidInfo.uuid_final,
       ip_address,
       action_type: 'post_view',
       post_id,
