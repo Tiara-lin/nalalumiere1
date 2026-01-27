@@ -1,5 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import axios from 'axios';
+import { UUIDInfo, getFinalUUIDInfo } from '../utils/uuidResolver';
 
 // ✅ 統一 Base URL
 export const API_BASE_URL = 'https://evalumiere1-production.up.railway.app/api';
@@ -25,8 +26,11 @@ export type AnalyticsHook = {
   ) => void;
 };
 
-export const useAnalytics = (): AnalyticsHook => {
+// ✅ 改成可選參數，內部自動取得全局 FINAL_UUID
+export const useAnalytics = (uuidInfo?: UUIDInfo): AnalyticsHook => {
   const sessionTracked = useRef(false);
+  // ✅ 若沒傳 uuidInfo，則取得全局的
+  const uuidInfoRef = useRef(uuidInfo || getFinalUUIDInfo());
 
   const trackSession = async (): Promise<string | null> => {
     if (sessionTracked.current && sessionId) {
@@ -38,26 +42,18 @@ export const useAnalytics = (): AnalyticsHook => {
       sessionId = savedSession;
     }
 
-    // ✅ 從 URL query 或 localStorage 取得 UUID
-    const params = new URLSearchParams(window.location.search);
-    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
-    const uuid = localStorage.getItem('uuid');
+    // ✅ 使用全局 FINAL_UUID，不再異步讀取
+    const uuid_final = uuidInfoRef.current.uuid_final;
 
-    // ✅ 檢查 UUID 格式與存在性
-    const isValidUUID =
-      uuid &&
-      /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(uuid);
-
-    if (!isValidUUID) {
-      console.warn('⚠️ Invalid or missing UUID:', uuid);
+    if (!uuid_final) {
+      console.warn('⚠️ Invalid or missing FINAL_UUID:', uuid_final);
       return null;
     }
 
     const payload = {
       page_url: window.location.href,
       session_id: sessionId || null,
-      uuid,
-      pid: pidFromQuery,
+      uuid_final, // ✅ 只發送 uuid_final（後端會收為 uuid_final 或相容舊版的 uuid）
     };
 
     console.log('[TRACK SESSION PAYLOAD]', payload);
@@ -115,10 +111,8 @@ export const useAnalytics = (): AnalyticsHook => {
       return;
     }
 
-    // ✅ 從 URL query 取得 pid
-    const params = new URLSearchParams(window.location.search);
-    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
-    const uuid = localStorage.getItem('uuid');
+    // ✅ 使用全局 FINAL_UUID
+    const uuid_final = uuidInfoRef.current.uuid_final;
 
     const payload = {
       session_id: sessionId,
@@ -126,8 +120,7 @@ export const useAnalytics = (): AnalyticsHook => {
       post_id: postId,
       post_username: postUsername,
       additional_data: additionalData,
-      uuid,
-      pid: pidFromQuery,
+      uuid_final, // ✅ 只發送 uuid_final
     };
 
     console.log('[TRACK INTERACTION PAYLOAD]', payload);
@@ -153,10 +146,8 @@ export const useAnalytics = (): AnalyticsHook => {
       return;
     }
 
-    // ✅ 從 URL query 取得 pid
-    const params = new URLSearchParams(window.location.search);
-    const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
-    const uuid = localStorage.getItem('uuid');
+    // ✅ 使用全局 FINAL_UUID
+    const uuid_final = uuidInfoRef.current.uuid_final;
 
     const payload = {
       session_id: sessionId,
@@ -165,8 +156,7 @@ export const useAnalytics = (): AnalyticsHook => {
       view_duration: viewDuration,
       scroll_percentage: scrollPercentage,
       media_type: mediaType,
-      uuid,
-      pid: pidFromQuery,
+      uuid_final, // ✅ 只發送 uuid_final
     };
 
     console.log('[TRACK POST VIEW PAYLOAD]', payload);

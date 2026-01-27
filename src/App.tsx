@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Stories from './components/Stories';
 import Feed from './components/Feed';
@@ -8,25 +8,16 @@ import Footer from './components/Footer';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import { useMaxScrollTracker } from './hooks/useMaxScrollTracker';
 import { useAnalytics } from './hooks/useAnalytics'; // ✅ 新增
+import { getFinalUUIDInfo } from './utils/uuidResolver'; // ✅ 同步決定 UUID
 
 function App() {
+  // ✅ App 初始化時立即同步決定 FINAL_UUID（在任何 hook 之前）
+  getFinalUUIDInfo();
 
-  const analytics = useAnalytics(); // ✅ 統一呼叫
-  useMaxScrollTracker();
+  const analytics = useAnalytics(); // ✅ 內部自動取得全局 FINAL_UUID
+  useMaxScrollTracker(); // ✅ 內部自動取得全局 FINAL_UUID
 
-  // ✅ UUID 驗證（含格式）
- useEffect(() => {
-  let uuid = localStorage.getItem('uuid');
-
-  const isValidUUID = uuid &&
-    /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(uuid);
-
-  if (!isValidUUID) {
-    uuid = crypto.randomUUID(); // ✅ 產生新的 UUID
-    localStorage.setItem('uuid', uuid);
-    console.log('✅ New UUID generated and saved:', uuid);
-  }
-}, []);
+  // ✅ UUID 現在在 App 開頭同步決定，無需 useEffect
 
 
   return (

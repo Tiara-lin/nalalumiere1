@@ -1,12 +1,16 @@
 import { useEffect, useRef } from 'react';
 import { API_BASE_URL } from './useAnalytics';
+import { UUIDInfo, getFinalUUIDInfo } from '../utils/uuidResolver';
 
 type ProgressType = 'SCROLL_PROGRESS' | 'SCROLL_FINAL';
 
-export const useMaxScrollTracker = () => {
+// ✅ 改成可選參數，內部自動取得全局 FINAL_UUID
+export const useMaxScrollTracker = (uuidInfo?: UUIDInfo) => {
   const maxScrollRef = useRef(0);
   const lastPostPctRef = useRef(0);
   const lastPostTsRef = useRef(0);
+  // ✅ 若沒傳 uuidInfo，則取得全局的
+  const uuidInfoRef = useRef(uuidInfo || getFinalUUIDInfo());
 
   useEffect(() => {
     console.log('🚩 useMaxScrollTracker mounted!');
@@ -20,10 +24,8 @@ export const useMaxScrollTracker = () => {
           (window as any).sessionId ||
           sessionStorage.getItem('session_id') ||
           null;
-        const uuid =
-          localStorage.getItem('uuid') ||
-          sessionStorage.getItem('uuid') ||
-          null;
+        // ✅ 使用全局 FINAL_UUID
+        const uuid = uuidInfoRef.current.uuid_final;
 
         window.parent?.postMessage(
           {
@@ -77,14 +79,9 @@ export const useMaxScrollTracker = () => {
         (window as any).sessionId ||
         sessionStorage.getItem('session_id') ||
         null;
-      const uuid =
-        localStorage.getItem('uuid') ||
-        sessionStorage.getItem('uuid') ||
-        null;
 
-      // ✅ 從 URL query 取得 pid
-      const params = new URLSearchParams(window.location.search);
-      const pidFromQuery = params.get('pid') || params.get('uuid') || params.get('surveyUUID');
+      // ✅ 使用全局 FINAL_UUID
+      const uuid_final = uuidInfoRef.current.uuid_final;
 
       console.log('🚩 using sessionId:', sid);
 
@@ -94,9 +91,8 @@ export const useMaxScrollTracker = () => {
       postToParent(finalPct, 'SCROLL_FINAL');
 
       const payload = JSON.stringify({
-        uuid,
+        uuid_final, // ✅ 只發送 uuid_final
         session_id: sid,
-        pid: pidFromQuery,
         action_type: 'final_max_scroll',
         additional_data: {
           max_scroll_percentage: finalPct
@@ -151,7 +147,7 @@ export const useMaxScrollTracker = () => {
       window.removeEventListener('beforeunload', handleBeforeUnload);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
-  }, []);
+  }, [uuidInfo]);
 
   return maxScrollRef;
 };
