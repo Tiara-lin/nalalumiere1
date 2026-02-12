@@ -287,3 +287,14 @@ process.on('SIGINT', async () => {
   await client.close();
   process.exit(0);
 });
+
+process.on('SIGTERM', async () => {
+  console.log('SIGTERM received, shutting down...');
+  try {
+    await client.close();
+  } catch (err) {
+    console.error('Error closing Mongo:', err);
+  } finally {
+    process.exit(0);
+  }
+});
